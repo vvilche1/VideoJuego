@@ -5,6 +5,9 @@ using UnityEngine;
 public class move : MonoBehaviour{
     public float speed;
     private Rigidbody rigid;
+    public int vida = 100;
+    public int puntos = 0;
+   
 
     // Start is called before the first frame update
     void Start(){
